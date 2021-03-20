@@ -174,7 +174,7 @@ $type_house=array_unique($type_house);
             </select>
           </div>
           <div class="filtroTipo input-field">
-          <form action="">
+          <form action="" method="post">
             <p><label for="selecTipo">Tipo:</label></p>
             <br>
             <select name="tipo" id="selectTipo">
@@ -186,7 +186,7 @@ $type_house=array_unique($type_house);
             </select>
           </div>
           <div class="botonField">
-                        <a href="?c=bienes&a=report" class="btn" data-toggle="tooltip" type="submit" data-placement="top" title="eliminar">Generar Reporte</a>
+                        <a href="?c=bienes&a=report&city<?=$c?>&type<?=$th?>" class="btn"  title="reporte">Generar Reporte</a>
                 </div>
                 </form>
           </div>
