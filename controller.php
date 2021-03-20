@@ -1,6 +1,6 @@
 <?php
 require_once 'model.php';
-require "PHPExcel/Classes/PHPExcel.php";
+// require "PHPExcel/Classes/PHPExcel.php";
 class controller
 {
     function __construct() 
