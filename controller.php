@@ -17,7 +17,6 @@ class controller
           
             $jvpc = new Model();
             $jvpc->city         =    $_GET['city'];
-            print_r($_GET['phone']);
             $jvpc->type         =    $_GET['type'];
             $jvpc->address      =    $_GET['address'];
             $jvpc->phone        =    $_GET['phone'];
